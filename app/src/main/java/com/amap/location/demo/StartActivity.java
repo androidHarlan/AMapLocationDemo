@@ -76,6 +76,8 @@ public class StartActivity extends ListActivity {
 					Alarm_Location_Activity.class),
 			new DemoDetails(R.string.errorCode, R.string.errorCode_dec,
 					ErrorCode_Activity.class),
+			new DemoDetails(R.string.weather, R.string.errorCode_dec,
+					WeatherActivity.class),
 			};
 
 	@Override
